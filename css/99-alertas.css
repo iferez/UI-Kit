@@ -1,0 +1,136 @@
+.modal-backdrop.show {
+    opacity: 0.5 !important;
+    filter: alpha(opacity=80) !important;
+}
+
+.modal-content .bi-x-circle {
+    color: #ffff;
+    font-size: 22px;
+}
+/* ERROR NARANJA */
+
+#alertOrange .modal-content {
+    background-color: #333333;
+    border-radius: 10px;
+    border-left: 8px solid #f4c631;
+    margin-top: 50px;
+}
+
+#alertOrange .modal-body {
+    padding: 0px;
+}
+
+#alertOrange .padAlert {
+    padding: 14px 30px;
+}
+
+#alertOrange .padAlertClose {
+    padding-right: 20px;
+    padding-left: 10px;
+    padding-top: 2px;
+}
+
+#errorTitulo {
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #f4c631;
+    margin: 0px;
+    padding-bottom: 4px;
+}
+
+#errorDesc {
+    font-size: 14px;
+    color: #ffff;
+    margin: 0px;
+}
+
+#errorDesc a {
+    color: #37bbed;
+}
+
+
+/* ERROR ROJO */
+
+#alertRed .modal-content {
+    background-color: #333333;
+    border-radius: 10px;
+    border-left: 8px solid #ff0000;
+    margin-top: 50px;
+}
+
+#alertRed .modal-body {
+    padding: 0px;
+}
+
+#alertRed .padAlert {
+    padding: 14px 30px;
+}
+
+#alertRed .padAlertClose {
+    padding-right: 20px;
+    padding-left: 10px;
+    padding-top: 2px;
+}
+
+#errorTituloRojo {
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #ff0000;
+    margin: 0px;
+    padding-bottom: 4px;
+}
+
+#errorDescRojo {
+    font-size: 14px;
+    color: #ffff;
+    margin: 0px;
+}
+
+#errorDescRojo a {
+    color: #37bbed;
+}
+
+
+/* ERROR VERDE */
+
+#alertGreen .modal-content {
+    background-color: #333333;
+    border-radius: 10px;
+    border-left: 8px solid #6EA100;
+    margin-top: 50px;
+}
+
+#alertGreen .modal-body {
+    padding: 0px;
+}
+
+#alertGreen .padAlert {
+    padding: 14px 30px;
+}
+
+#alertGreen .padAlertClose {
+    padding-right: 20px;
+    padding-left: 10px;
+    padding-top: 2px;
+}
+
+#errorTituloVerde {
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #6EA100;
+    margin: 0px;
+    padding-bottom: 4px;
+}
+
+#errorDescVerde {
+    font-size: 14px;
+    color: #ffff;
+    margin: 0px;
+}
+
+#errorDescVerde a {
+    color: #37bbed;
+}

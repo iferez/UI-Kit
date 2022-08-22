@@ -1,0 +1,137 @@
+#banner {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+#navBlack {
+  position: absolute;
+  width: 100%;
+  margin: auto;
+  height: 25px;
+  top: 0;
+  left: 0;
+  background-color: #00000080;
+  font-weight: 400;
+}
+
+#navBlack a {
+  font-size: 14px;
+  font-weight: 400;
+  color: #ffff;
+  text-decoration: none;
+}
+
+#bannerTitulo {
+  position: absolute;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+#bannerTitulo h1 {
+  color: #ffff;
+  font-weight: bold;
+  font-size: 26px;
+  margin-bottom: 0px;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 6px #000000ad;
+}
+
+#bannerSubTitulo {
+  position: absolute;
+  width: 100%;
+  margin: auto;
+  margin-top: 60px;
+  text-align: center;
+}
+
+#bannerSubTitulo h2 {
+  color: #ffff;
+  font-weight: 400;
+  font-size: 18px;
+  text-shadow: 2px 2px 6px #000000ad;
+}
+
+/* SECTION INICIO */
+#loginInicio {
+  padding-top: 40px;
+  padding-bottom: 140px;
+}
+
+#loginInicio h3 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+#loginFormulario {
+  border-radius: 8px;
+}
+
+#contenedorForm {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#loginFormulario label {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+#loginFormulario #inputPassword {
+  border-radius: 0.5rem 0rem 0rem 0.5rem !important;
+}
+
+#loginFormulario #showPassword {
+  border-radius: 0rem 0.5rem 0.5rem 0rem !important;
+  cursor: pointer;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#loginFormulario #showPassword i {
+  opacity: 60%;
+  font-size: 18px;
+}
+
+#contenedorForm p {
+  font-size: 14px;
+}
+
+#contenedorForm em {
+  font-style: normal;
+  font-weight: 600;
+  color: #1072bb;
+}
+
+/* Responsive */
+@media (min-width: 992px) {
+  #navBlack {
+    height: 48px;
+  }
+
+  #bannerTitulo h1 {
+    font-size: 50px;
+  }
+
+  #bannerSubTitulo {
+    margin-top: 140px;
+  }
+
+  #bannerSubTitulo h2 {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 1400px) {
+  #bannerTitulo h1 {
+    font-size: 56px;
+  }
+
+  #bannerSubTitulo h2 {
+    font-size: 36px;
+  }
+}
