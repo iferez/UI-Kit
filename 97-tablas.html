@@ -92,7 +92,6 @@
                                     <a href=""><i class="fa-solid fa-eye"></i></a>
                                 </td>
                             </tr>
-
                             <tr>
                                 <td> Nombre de la empresa</td>
                                 <td>20-12345678-5</td>
@@ -109,8 +108,59 @@
                 </div>
             </article>
 
-            <h3 class="mt-5 mb-3">Tabla ministerio numerada con iconos</h3>
+            <h3 class="mt-5 mb-3">Tabla ministerio con semaforo de estados</h3>
+            <!-- AGREGADO DE CLASES BORDE PARA CAMBIAR EL COLOR SEGUN ESTADO  -->
+            <article class="row">
+                <div class="col-12 table-responsive">
+                    <table class="table table-striped tabla-ministerio">
+                        <thead>
+                            <tr>
+                                <th>Razón Social</th>
+                                <th>CUIT</th>
+                                <th>Estado</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="borde-pendiente"> Nombre de la empresa 1</td>
+                                <td>20-12345678-5</td>
+                                <td>Pendiente</td>
+                                <td>
+                                    <a href="" class="pe-5 pe-md-3"><i class="fa-solid fa-pencil"></i></a>
+                                    <a href=""><i class="fa-solid fa-eye"></i></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="borde-aprobado"> Nombre de la empresa 2 </td>
+                                <td>20-12345678-5</td>
+                                <td>Aprobado</td>
+                                <td>
+                                    <a href="" class="pe-5 pe-md-3"><i class="fa-solid fa-pencil"></i></a>
+                                    <a href=""><i class="fa-solid fa-eye"></i></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="borde-desaprobado"> Nombre de la empresa 3</td>
+                                <td>20-12345678-5</td>
+                                <td>Desaprobado</td>
+                                <td>
+                                    <a href="" class="pe-5 pe-md-3"><i class="fa-solid fa-pencil"></i></a>
+                                    <a href=""><i class="fa-solid fa-eye"></i></a>
+                                </td>
+                            </tr>
+                        </tbody>
 
+                    </table>
+                </div>
+            </article>
+            
+            <p> * <span class="fw-bold">Importante:</span> Si necesito cambiar el color del BORDE con cualquier estado
+                puedo cambiarlo solo agregando la clase <strong class="ps-3">.borde-estado</strong> </p>
+
+            <h3 class="mt-5 mb-3">Tabla ministerio numerada con iconos</h3>
+             <!-- CUANDO TIENE LA CLASE TABLA-MINISTERIO-NUMERADA
+             EL PRIMER TD SIEMPRE SE VA A COMPORTAR CON ESTILOS DE NUMERACION  -->
             <article class="row">
                 <div class="col-12 table-responsive">
                     <table class="table tabla-ministerio-numerada">
@@ -125,7 +175,6 @@
                                     <a href=""><i class="fa-solid fa-download"></i></a>
                                 </td>
                             </tr>
-
                             <tr>
                                 <td>2</td>
                                 <td class="fbold">Nombre del cuestionario</td>
