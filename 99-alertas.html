@@ -34,7 +34,6 @@
     </header>
 
     <main>
-
         <div class="container vh-100">
 
             <article class="my-5">
@@ -112,11 +111,11 @@
             </article>
 
             <article class="my-5">
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#dobleCheck">
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#dobleCheckConfirmado">
                     Lanzar doble check de confirmación
                 </button>
 
-                <div class="modal fade" id="dobleCheck" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                <div class="modal fade" id="dobleCheckConfirmado" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
                     aria-hidden="true">
                     <div class="modal-dialog modal-lg">
                         <div class="modal-content">
@@ -139,8 +138,35 @@
                 </div>
             </article>
 
-        </div>
+            <article class="my-5">
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#dobleCheckObservado">
+                    Lanzar doble check con observación
+                </button>
 
+                <div class="modal fade" id="dobleCheckObservado" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title"><i class="fa-solid fa-circle-exclamation me-2"></i>
+                                Lorem ipsum dolor sit amet.</h5>
+                                <i class="bi bi-x-circle text-dark pe-auto" data-bs-dismiss="modal"
+                                    aria-label="Close"></i>
+                            </div>
+                            <div class="modal-body regularFw">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, temporibus?
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-md btn-secondary rounded-pill"
+                                    data-bs-dismiss="modal">Cancelar</button>
+                                <button type="button" class="btn btn-md btn-warning rounded-pill ms-3">Observar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+        </div>
     </main>
 
 

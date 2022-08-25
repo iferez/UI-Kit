@@ -32,27 +32,27 @@ main {
   min-height: 100vh;
 }
 
-.color-ministerio {
+.text-ministerio {
   color: #37bbed !important;
 }
 
-.color-azul {
+.text-azul {
   color: #0072bb !important;
 }
 
-.color-gris {
+.text-gris {
   color: #f7f7f7 !important;
 }
 
-.color-verde {
+.text-verde {
   color: #2e7d33 !important;
 }
 
-.color-rojo {
+.text-rojo {
   color: #ef5350 !important;
 }
 
-.color-body {
+.text-body {
   color: #333333 !important;
 }
 
@@ -328,6 +328,11 @@ input[type="file"]::file-selector-button:hover {
   font-size: 24px;
 }
 
+.modal .fa-circle-exclamation {
+  color: #f9a822;
+  font-size: 24px;
+}
+
 .modal .bi-x-circle {
   cursor: pointer;
 }
@@ -355,7 +360,7 @@ input[type="file"]::file-selector-button:hover {
 
 /* BOTONES */
 .btn {
-  font-weight: 500;
+  font-weight: 600;
   color: #030303;
   white-space: initial;
   word-break: initial;
@@ -378,13 +383,13 @@ input[type="file"]::file-selector-button:hover {
 }
 
 .btn-lg {
-  padding: 16px 25px;
+  padding: 12px 50px;
   font-size: 1rem;
   border-radius: 0.3rem;
 }
 
 .btn-xl {
-  padding: 12px 50px;
+  padding: 16px 50px;
   font-size: 1rem;
   border-radius: 0.3rem;
 }
@@ -435,7 +440,7 @@ input[type="file"]::file-selector-button:hover {
 }
 
 .btn-danger:hover {
-  background-color: #b82525 !important;
+  background-color: #ab0909 !important;
   color: #ffff !important;
 }
 
@@ -445,7 +450,7 @@ input[type="file"]::file-selector-button:hover {
 }
 
 .btn-warning:hover {
-  background-color: #eb9c1b !important;
+  background-color: #e89208 !important;
   color: #ffff !important;
 }
 

@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="css/icono-arg.css">
+
+    <title>Cards</title>
+</head>
+
+<body>
+    <header id="header-ministerioDesarrollo">
+        <div class="container">
+            <div class="row">
+                <div id="headerColUno" class="col-12 d-flex align-items-center">
+                    <a href="#">
+                        <img src="img/logoMinisterioBlanco.svg" class="logoHeader" alt="Logo Ministerio">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+
+            <h2 class="my-5">Cards .card-ministerio</h2>
+
+            <article class="row">
+                <div class="col-12 col-md-6">
+                    <div class="card-ministerio shadow-md mb-5">
+                        <div class="headerCard">
+                        </div>
+                        <div class="row bodyCard">
+                            <div class="col-12">
+                                <h3>Cultura Innovadora</h3>
+                                <h4>¡Bienvenido!</h4>
+                                <p>Como empresa podés acceder al siguiente módulo.</p>
+                            </div>
+                            <div class="text-center pt-4">
+                                <button class="btn btn-primary">Ingresar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- HEADER Y FOOTER EN CARD -->
+                <div class="col-12 col-md-6">
+                    <div class="card-ministerio shadow-md mb-5">
+                        <div class="headerCard">
+                        </div>
+                        <div class="row bodyCard">
+                            <div class="col-12">
+                                <h3>Titulo</h3>
+                                <h4>Subtitulo</h4>
+                                <p>Info Lorem ipsum dolor sit amet.</p>
+                            </div>
+                            <div class="text-center pt-4">
+                                <button class="btn btn-primary">Ingresar</button>
+                            </div>
+                        </div>
+                        <div class="footerCard">
+                        </div>
+                    </div>
+                </div>
+                <!-- CONTENIDO EN DOS COLUMNAS -->
+                <div class="col-12 col-md-6">
+                    <div class="card-ministerio shadow-md mb-5">
+                        <div class="headerCard">
+                            <p>Con header</p>
+                        </div>
+                        <div class="row bodyCard">
+                            <div class="col-6">
+                                <h3>Columna uno</h3>
+                                <p>Info Lorem ipsum dolor sit amet.</p>
+                            </div>
+                            <div class="col-6">
+                                <h3>Columna dos</h3>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- CONTENIDO CENTRADO - CON HEADER Y FOOTER -->
+                <div class="col-12 col-md-6">
+                    <div class="card-ministerio shadow-md mb-5">
+                        <div class="headerCard">
+                            <p>Con header</p>
+                        </div>
+                        <div class="row bodyCard">
+                            <div class="col-12 text-center">
+                                <h3>Titulo centrado</h3>
+                                <h4>Subtitulo</h4>
+                                <p>Info Lorem ipsum dolor sit amet.</p>
+                            </div>
+                        </div>
+                        <div class="footerCard">
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- CABECERAS CON ESTADOS  -->
+            <article class="row">
+                <div class="col-12 col-md-6">
+                    <div class="card-ministerio shadow-md mb-5">
+                        <div class="headerCardEstado d-flex justify-content-between">
+                            <span class="fechaSolicitud">25/03/2022</span>
+                            <span class="estadoSolicitud verificada">Verfificado</span>
+                        </div>
+                        <div class="bodyCard row">
+                            <div class="col-12">
+                                <h3>Proyecto 1</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Iusto, rerum!</p>
+                            </div>
+                            <div class="col-6">
+                                <p>Primer columna</p>
+                            </div>
+                            <div class="col-6">
+                                <p>Segunda columna</p>
+                            </div>
+                        </div>
+                        <div class="footerCard">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- DIFERENTES CABECERAS CON ESTADOS  -->
+                <div class="col-12 col-md-6">
+                    <div class="card-ministerio shadow-md mb-4">
+                        <div class="headerCardEstado d-flex justify-content-between">
+                            <span class="fechaSolicitud">30/05/2022</span>
+                            <span class="estadoSolicitud borrador">Borrador</span>
+                        </div>
+                    </div>
+
+                    <div class="card-ministerio shadow-md mb-4">
+                        <div class="headerCardEstado d-flex justify-content-between">
+                            <span class="fechaSolicitud">05/01/2022</span>
+                            <span class="estadoSolicitud presentada">Presentada</span>
+                        </div>
+                    </div>
+
+                    <div class="card-ministerio shadow-md mb-4">
+                        <div class="headerCardEstado d-flex justify-content-between">
+                            <span class="fechaSolicitud">16/06/2022</span>
+                            <span class="estadoSolicitud rechazada">Rechazada</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <p> * <span class="fw-bold">Importante:</span> Si necesito cambiar el color del FONDO HeaderCard o FooterCard
+                 puedo cambiarlo solo agregando la clase <strong class="ps-3">.bg-color</strong> </p>
+            <p> * Si necesito cambiar el color de TEXTO <strong class="ps-3">.text-color</strong> </p>
+
+        </div>
+    </main>
+
+    <footer id="footer-ministerioDesarrollo">
+        <div class="container">
+            <div class="row">
+                <div id="footerColUno" class="col-12 d-flex align-items-center">
+                    <img src="img/logoMinisterioBlanco.svg" class="logoHeader" alt="Logo Ministerio">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/d741def0c1.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
