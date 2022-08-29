@@ -1,0 +1,91 @@
+/* SECTION DASHBOARD */
+#dashboard {
+  padding-top: 40px;
+  padding-bottom: 140px;
+}
+
+#dashboard h3 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+/* DASHBOARD CARDS */
+#dashboard .card a {
+  text-decoration: none;
+}
+
+#dashboard .card {
+  background-color: #0072bb;
+  transition: 0.2s;
+  border: none;
+}
+
+#dashboard .card:hover {
+  background-color: #0073bb98;
+  transition: 0.3s;
+}
+
+#dashboard .card-header {
+  height: 100px;
+  border-bottom: none;
+}
+
+#dashboard .card-body {
+  height: 70px;
+  background-color: #ffff;
+  padding: 0rem;
+}
+
+#dashboard .card-body h5 {
+  padding: 0.5rem;
+}
+
+#dashboard .card-footer {
+  padding: 4px;
+  border-top: none;
+}
+
+#dashboard .card-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #030303;
+  margin: 0px;
+}
+
+#dashboard .dropdown-menu li {
+  border-top: 1px dashed #7070704a;
+}
+
+#dashboard .card i {
+  font-size: 70px;
+}
+
+#dashboard .card a:focus {
+  background-color: #dddddd;
+}
+
+#dashboard .btn-title {
+  width: 100%;
+  min-width: 100%;
+  font-size: 20px;
+  font-weight: 700;
+  background: none;
+  border: none;
+  text-align: start;
+  padding: 0.5rem;
+}
+
+#dashboard .btn-title i {
+  font-size: 16px !important;
+}
+
+#dashboard .btn-title:focus {
+  box-shadow: none;
+}
+
+#dashboard .card .dropdown-menu {
+  width: 100% !important;
+  border: none !important;
+  border-bottom: 6px solid #0072bb !important;
+}

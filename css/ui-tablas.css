@@ -95,21 +95,27 @@
   margin-right: 6px;
 }
 
+/* RESPONSIVE */
+@media (min-width: 768px) {
 /* BORDES SEMAFORO CON ESTADOS */
 .borde-pendiente {
   border-left: 6px solid #70707099 !important;
-  border-radius: 6px 0px 0px 6px !important;
-}
-.borde-desaprobado {
-  border-left: 6px solid #c62828 !important;
   border-radius: 6px 0px 0px 6px !important;
 }
 .borde-aprobado {
   border-left: 6px solid #2e7d33 !important;
   border-radius: 6px 0px 0px 6px !important;
 }
+.borde-desaprobado {
+  border-left: 6px solid #c62828 !important;
+  border-radius: 6px 0px 0px 6px !important;
+}
+.borde-observado {
+  border-left: 6px solid #f9a822 !important;
+  border-radius: 6px 0px 0px 6px !important;
+}
+}
 
-/* RESPONSIVE */
 @media (max-width: 768px) {
   .tabla-ministerio thead {
     display: none !important;

@@ -1,0 +1,105 @@
+/* CARDS DETALLES */
+#detalles-card label {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+#detalles-card .cabecera-fechas {
+  background-color: #f2f2f2;
+}
+
+#detalles-card .cabecera-fechas span {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+#detalles-card .cabecera-fechas em {
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+#detalles-card .bodyCard {
+  padding: 36px 6px;
+  font-size: 14px;
+}
+
+#detalles-card .bodyCard i {
+  font-size: 26px;
+}
+
+#detalles-card .bodyCard span {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* TARJETA DETALLES */
+#detalles-card-columnas .tarjeta-detalle {
+  background-color: #f7f7f7;
+  height: 265px;
+  padding: 25px;
+  padding-bottom: 0px;
+  margin-top: 24px;
+  font-size: 14px;
+  font-weight: 300;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+}
+
+#detalles-card-columnas .tarjeta-detalle h5 {
+  color: #333333;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+#detalles-card-columnas .tarjeta-ver-mas {
+  background-color: #f7f7f7;
+  padding: 25px;
+  text-align: end;
+}
+
+#detalles-card-columnas .tarjeta-ver-mas a {
+  color: #0072bb;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+#detalles-card-columnas .tarjeta-detalle-dos {
+  background-color: #f7f7f7;
+  height: 160px;
+  padding: 25px;
+  padding-bottom: 0px;
+  margin-top: 24px;
+  font-size: 14px;
+  font-weight: 300;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+}
+
+#detalles-card-columnas .tarjeta-detalle-dos h5 {
+  color: #333333;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+#detalles-card-columnas .tarjeta-detalle-imagen i {
+  font-size: 52px;
+  color: #0072bb;
+  margin-bottom: 20px;
+}
+
+#detalles-card-columnas .tarjeta-detalle-imagen {
+  background-color: #f7f7f7;
+  height: 234px;
+  padding: 25px;
+  margin-top: 24px;
+  font-size: 14px;
+  font-weight: 200;
+}
+
+@media (min-width: 768px) {
+  #detalles-card .bodyCard {
+    padding: 36px 48px;
+    font-size: 14px;
+  }
+}

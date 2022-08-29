@@ -1,8 +1,10 @@
-@import "0-variables.css";
-@import "00-header.css";
-@import "03-login-banner.css";
-@import "05-login-afip.css";
-@import "96-cards.css";
-@import "97-tablas.css";
-@import "99-alertas.css";
-
+@import "ui-variables.css";
+@import "ui-header.css";
+@import "ui-cards.css";
+@import "ui-tablas.css";
+@import "ui-alertas.css";
+@import "01-login-banner.css";
+@import "02-login-afip.css";
+@import "03-dashboard.css";
+@import "04-perfil-empresa.css";
+@import "05-card-detalles.css";
