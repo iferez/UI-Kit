@@ -1,0 +1,77 @@
+.componente-pasos {
+  background-color: #ffffff;
+  border: 1px solid #e1e1e1;
+  border-radius: 10px;
+  margin: 0px;
+  padding: 10px 20px;
+  font-size: 14px;
+}
+
+.componente-pasos h4 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333333;
+  margin-bottom: 16px;
+}
+
+.componente-pasos p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #333333;
+  margin-bottom: 16px;
+}
+
+.componente-pasos span {
+  display: inline-block;
+  text-align: center;
+  width: 22px;
+  height: 22px;
+  margin-right: 4px;
+  background-color: #2cb9ee;
+  border-radius: 50%;
+  font-weight: 600;
+  font-size: 14px;
+  color: #ffff;
+}
+
+.componente-pasos em {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  color: #2cb9ee;
+}
+
+/*  CON IMAGEN */
+.pasos-padding{
+  padding: 10px 6px;
+}
+
+.pasos-padding i{
+  font-size: 36px;
+  margin-top: 26px;
+  color: #2cb9ee;
+}
+
+/* Responsive */
+@media (min-width: 768px) {
+  .componente-pasos {
+    padding: 45px 80px;
+  }
+
+  .pasos-padding{
+    padding: 45px 10px;
+  }
+
+  .componente-pasos h4 {
+    font-size: 22px;
+  }
+
+  .componente-pasos p {
+    font-size: 18px;
+  }
+
+  .componente-pasos .btn-success {
+    font-size: 16px !important;
+    padding: 10px 15px !important;
+  }
+}

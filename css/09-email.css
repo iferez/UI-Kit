@@ -1,0 +1,40 @@
+#emailContenedor {
+  width: 800px;
+  margin: auto;
+  border: 1px solid #cccccc;
+}
+
+#emailContenedor h1 {
+  font-weight: bold;
+}
+
+#emailContenedor h1 i {
+  font-size: 52px;
+  padding-right: 10px;
+}
+
+#emailContenedor h5 {
+  font-weight: 500;
+}
+
+#emailContenedor .atencionEmail {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+#footerEmail i {
+  cursor: pointer;
+  color: #ffff;
+  font-size: 26px;
+  margin-right: 40px;
+}
+#footerEmail p {
+  color: #0072bb;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: end;
+  margin: 0px;
+}
+#footerEmail p a {
+  color: #0072bb;
+}

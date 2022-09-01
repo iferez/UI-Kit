@@ -1,0 +1,14 @@
+/* FILTROS */
+
+#filtros-colapsados .fa-magnifying-glass {
+    opacity: 0.8;
+  }
+  
+  #filtros-colapsados h3 {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  #filtros-colapsados label {
+    font-weight: 400;
+  }
