@@ -24,12 +24,17 @@ STRONG { font-weight: 700}
 EM { font-style: italic}
 .Clearfix:after {content:"."; display:block; height:0; clear:both; visibility:hidden;}
 
+html,
 body {
+  width: auto !important;
+  overflow-x: hidden !important;
   color: #333333;
 }
 
 main {
-  min-height: 100vh;
+  min-height: -webkit-calc(100vh - 164px);
+  min-height: -moz-calc(100vh - 164px);
+  min-height: calc(100vh - 164px);
 }
 
 .text-ministerio {
@@ -52,7 +57,7 @@ main {
   color: #ef5350 !important;
 }
 
-.text-body {
+.text-negro {
   color: #333333 !important;
 }
 
